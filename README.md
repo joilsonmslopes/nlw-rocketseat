@@ -31,7 +31,7 @@ yarn add express, sqlite3, nunjucks
 
 ```node.js
 const express = require("express")
-const sqlite3 = require("sqlite3")
+const sqlite3 = require("sqlite3").verbose()
 const nunjucks = require("nunjucks")
 
 ```
